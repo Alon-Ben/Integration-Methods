@@ -1,4 +1,4 @@
-#Assignment #5: Comparison of Integration Methods: Gareth Sykes
+#Assignment: Comparison of Integration Methods: Gareth Sykes
 
 from math import sin, sqrt, cos, log10
 import numpy as np
