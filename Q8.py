@@ -1,9 +1,18 @@
 #Assignment: Comparison of Integration Methods: Gareth Sykes
 
 from math import sin, sqrt, cos, log10
-import numpy as np
-import scipy.integrate
-import matplotlib.pyplot as plt
+try:
+    import numpy as np
+except ImportError:
+    print("Error importing Numpy(required module), please install numpy through pip to run this code")
+try:
+    import scipy.integrate
+except ImportError:
+    print("Error importing scipy(required module), please install scipy through pip to run this code")
+try:
+    import matplotlib.pyplot as plt
+except ImportError:
+    print("Error importing matplotlib(required module), please install matplotlib through pip to run this code")
 
 
 #function to be integrated
